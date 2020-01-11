@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@media (min-width: 480px) and (max-width: 767px){
+	
+	.container{
+    position: static;
+    text-shadow: 13px 20px 9px #FF0004;
+    border: medium solid #FF0004;
+    display: flex;
+    ;
+    color: #2A00FF;
+	}
+}
