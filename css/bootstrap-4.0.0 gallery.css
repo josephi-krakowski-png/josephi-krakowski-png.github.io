@@ -33,6 +33,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    height: 3000px;
 }
 
 *,
@@ -40,11 +41,7 @@
 *::after {
   box-sizing: border-box;
 }
-.box{
-	width: 1300px;
-	hegiht: auto;
-	background-color: 
-}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -70,7 +67,9 @@ body {
     line-height: 1.5;
     color: #000000;
     text-align: left;
-    background-color: #848484;
+    background-color: #929292;
+    height: auto;
+    width: auto;
 }
 
 [tabindex="-1"]:focus {
@@ -375,7 +374,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: inherit;
 }
 
 h2, .h2 {
@@ -565,11 +566,14 @@ pre code {
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    margin-top: -3px;
+    padding-top: 37px;
 }
 
 @media (min-width: 576px) {
@@ -611,9 +615,9 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px;
     background-color: #929292;
     height: auto;
+    width: auto;
 }
 
 .no-gutters {
@@ -633,11 +637,11 @@ pre code {
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+    position: relative;
+    width: 500%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .col {
@@ -1649,7 +1653,6 @@ pre code {
   .offset-xl-1 {
     margin-left: 8.333333%;
     background-color: #FFFFFF;
-    text-align: center;
   }
   .offset-xl-2 {
     margin-left: 16.666667%;
@@ -4443,20 +4446,21 @@ tbody.collapse.show {
 }
 
 .card {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: 279px;
 }
 
 .card > hr {
